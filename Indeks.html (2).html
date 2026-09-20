@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turnamen MLBB 2026 - Banda Aceh</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif}
+  body{background:#f5f7fb;color:#222;line-height:1.6}
+  .container{max-width:800px;margin:0 auto;padding:20px}
+  header{background:#0e4d92;color:#fff;padding:30px 20px;border-radius:12px;text-align:center;margin-bottom:20px}
+  header h1{font-size:32px;margin-bottom:8px}
+  header p{opacity:.9}
+  .card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:20px}
+  .card h2{font-size:18px;color:#0e4d92;margin-bottom:12px;border-left:4px solid #0e4d92;padding-left:10px}
+  .info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+  .info-item{background:#f0f6ff;padding:12px;border-radius:8px;text-align:center}
+  .info-item b{display:block;font-size:20px;color:#0e4d92}
+  table{width:100%;border-collapse:collapse}
+  th,td{padding:10px;text-align:left;border-bottom:1px solid #eee;font-size:14px}
+  th{background:#f8fafc;color:#555}
+  .vs{font-weight:bold;color:#0e4d92}
+  .bracket{display:flex;gap:12px;overflow-x:auto;padding-bottom:10px}
+  .round{min-width:160px;background:#f8fafc;border:1px dashed #cbd5e1;border-radius:8px;padding:12px}
+  .round h4{font-size:13px;margin-bottom:10px;color:#0e4d92;text-align:center}
+  .match{background:#fff;border:1px solid #e5e7eb;border-radius:6px;padding:8px 10px;margin-bottom:8px;font-size:13px}
+  .team-list{columns:2;list-style:none}
+  .team-list li{padding:6px 0;border-bottom:1px solid #f1f5f9;font-size:14px}
+  .team-list li::before{content:"⚔ ";color:#0e4d92}
+  input,button{width:100%;padding:12px;border-radius:8px;border:1px solid #d1d5db;margin-bottom:10px;font-size:14px}
+  button{background:#0e4d92;color:#fff;border:none;font-weight:bold;cursor:pointer}
+  button:hover{background:#0a3a70}
+  footer{text-align:center;padding:20px;color:#888;font-size:13px}
+  .badge{display:inline-block;background:#e0f2fe;color:#0e4d92;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:bold}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>TURNAMEN MLBB 2026</h1>
+    <p>📍 Banda Aceh - Online & Offline Grand Final<br>📅 28-30 September 2026 | 19:00 WIB</p>
+  </header>
+
+  <div class="card">
+    <h2>Info Turnamen</h2>
+    <div class="info-grid">
+      <div class="info-item"><b>Rp 5 Juta</b>Total Prize Pool</div>
+      <div class="info-item"><b>16 Slot</b>Tim Maksimal</div>
+      <div class="info-item"><b>BO3 / BO5</b>Sistem Match</div>
+      <div class="info-item"><b>Gratis</b>Biaya Daftar</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Jadwal Pertandingan</h2>
+    <table>
+      <tr><th>Jam</th><th>Match</th><th>Status</th></tr>
+      <tr><td>19:00</td><td><span class="vs">RRQ Aceh</span> vs EVOS Banda</td><td><span class="badge">UPCOMING</span></td></tr>
+      <tr><td>19:45</td><td><span class="vs">ONIC Muda</span> vs Bigetron Aceh</td><td><span class="badge">UPCOMING</span></td></tr>
+      <tr><td>20:30</td><td><span class="vs">Aura Darussalam</span> vs Geek Banda</td><td><span class="badge">UPCOMING</span></td></tr>
+      <tr><td>21:15</td><td><span class="vs">Alter Ego Aceh</span> vs Rebellion Jr</td><td><span class="badge">UPCOMING</span></td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Bracket - 8 Besar</h2>
+    <div class="bracket">
+      <div class="round">
+        <h4>QUARTER FINAL</h4>
+        <div class="match">RRQ Aceh vs EVOS Banda</div>
+        <div class="match">ONIC Muda vs BTR Aceh</div>
+        <div class="match">Aura D vs Geek Banda</div>
+        <div class="match">AE Aceh vs RBL Jr</div>
+      </div>
+      <div class="round">
+        <h4>SEMI FINAL</h4>
+        <div class="match">Winner QF1 vs Winner QF2</div>
+        <div class="match">Winner QF3 vs Winner QF4</div>
+      </div>
+      <div class="round">
+        <h4>GRAND FINAL</h4>
+        <div class="match" style="background:#0e4d92;color:#fff;text-align:center;font-weight:bold">BO5 - Juara 1</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Daftar Peserta (8/16)</h2>
+    <ul class="team-list">
+      <li>RRQ Aceh</li>
+      <li>EVOS Banda</li>
+      <li>ONIC Muda</li>
+      <li>Bigetron Aceh</li>
+      <li>Aura Darussalam</li>
+      <li>Geek Banda</li>
+      <li>Alter Ego Aceh</li>
+      <li>Rebellion Jr</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Form Pendaftaran</h2>
+    <form onsubmit="daftar(event)">
+      <input type="text" id="tim" placeholder="Nama Tim" required>
+      <input type="text" id="kapten" placeholder="Nama Kapten / IGL" required>
+      <input type="tel" id="wa" placeholder="No WhatsApp (08xx)" required>
+      <button type="submit">DAFTAR SEKARANG</button>
+    </form>
+    <p style="font-size:12px;color:#888;text-align:center">*Admin akan hubungi via WA setelah daftar</p>
+  </div>
+
+  <div class="card">
+    <h2>Kontak Panitia</h2>
+    <p style="font-size:14px">📱 WhatsApp: 0812-XXXX-XXXX<br>📸 Instagram: @mlbb.aceh.tournament<br>🎥 Live: YouTube - MLBB Aceh Official</p>
+  </div>
+
+  <footer>
+    © 2026 Turnamen MLBB Banda Aceh - Dibuat untuk komunitas
+  </footer>
+</div>
+
+<script>
+function daftar(e){
+  e.preventDefault();
+  const tim = document.getElementById('tim').value;
+  const kapten = document.getElementById('kapten').value;
+  alert('Mantap! Tim ' + tim + ' (Kapten: ' + kapten + ') berhasil didaftar! Panitia akan hubungi via WA.');
+  e.target.reset();
+}
+</script>
+</body>
+</html>
